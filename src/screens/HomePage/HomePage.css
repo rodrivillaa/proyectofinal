@@ -1,0 +1,48 @@
+
+.container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color:rgba(255, 255, 255, 0.918);
+    padding: 20px;
+    border: 2px solid rgb(243, 240, 240);
+    box-shadow: -1px 2px 39px 14px rgba(192, 188, 188, 0.61);
+    -webkit-box-shadow: -1px 2px 39px 14px rgba(201, 197, 197, 0.61);
+    -moz-box-shadow: -1px 2px 39px 14px rgba(228, 223, 223, 0.61);
+}
+.container input{
+    text-align: center;
+    border: 2px solid rgb(73, 194, 123);;
+    border-radius: 3px;
+
+
+
+}
+.filtrocontainer{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    font-size: 10px;
+}
+
+
+
+
+.filtro-2{
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    
+}
+
+
+@media only screen and (max-width: 400px){
+
+
+.container input{
+    width: 100px;
+}
+
+}

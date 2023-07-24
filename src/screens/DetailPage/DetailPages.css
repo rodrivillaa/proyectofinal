@@ -1,0 +1,146 @@
+*{
+    margin: 0;
+    text-decoration: none;
+}
+
+.containerdetail{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    gap: 30px;
+
+}
+.productdetail {
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    width: 500px;
+    gap: 10px;
+}
+.productdetail h3{
+    font-size: 50px;
+}
+
+.productdetail p{
+    font-size: 20px;
+}
+
+
+
+/* IMAGEN */
+
+.botin:hover{
+    transform: scale(1.1);
+}
+
+.botin img{
+    width: 500px;
+    height: 500px;
+    
+}
+
+
+
+
+
+/* BOTON */
+.butondetail{
+    text-decoration: none;
+    border-radius: 12px;
+    border: none;
+    font-size: 9px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    width: 400px;
+    cursor: pointer;
+    color: rgb(255, 255, 255);
+    background-color:rgb(73, 194, 123);
+    box-shadow: 2px 6px 70px -11px rgba(73,194,123,0.75);
+-webkit-box-shadow: 2px 6px 70px -11px rgba(73,194,123,0.75);
+-moz-box-shadow: 2px 6px 70px -11px rgba(73,194,123,0.75);
+}
+.butondetail:hover{
+    background: rgb(30, 109, 47);;
+}
+
+.buttondetail-2{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: rgb(255, 255, 255);
+    gap: 10px;
+}
+
+.comprar{
+    display: flex;
+    justify-content: center;
+    width: 300px;
+    background-color: rgb(255, 255, 255);
+    gap: 10px;
+    align-items: center;
+}
+.comprar button{
+    background-color:rgb(73, 194, 123);
+    border-radius: 5px;
+    border: none;
+    height: 30px;
+    width: 40px;
+    cursor: pointer;
+
+}
+
+.confirmar{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+.confirmar button{
+    background-color:rgb(73, 194, 123);
+    margin: 10px;
+    border-radius: 5px;
+    width: 400px;
+    height: 50px;
+    font-size: 20px;
+    border: none;
+    cursor: pointer;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    
+}
+
+button:hover{
+    background: rgb(30, 109, 47);
+}
+
+@media only screen and (max-width: 1030px){
+
+    .productdetail {
+        
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        font-size: 20px;
+        gap: 10px;
+    }
+    
+
+
+    .productdetail p{
+        font-size: 18px;
+    }
+    .botin img {
+    width: 350px;
+    height: 350px;
+    }
+    .confirmar button{
+        width: 350px;
+    }
+
+    .productdetail h3{
+        font-size: 35px;
+    }
+}
